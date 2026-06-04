@@ -49,6 +49,7 @@ User Voice Input
 
 # 📁 Project Structure
 
+```text
 VOICE-ASSISTANT-V1/
 │
 ├── backend/
@@ -63,7 +64,6 @@ VOICE-ASSISTANT-V1/
 │   │   └── audio/
 │   │       ├── recording.wav
 │   │       └── response.wav
-│   ├── venv/
 │
 ├── frontend/
 │   ├── src/
@@ -74,6 +74,7 @@ VOICE-ASSISTANT-V1/
 │   ├── package.json
 │
 └── README.md
+```
 
 ---
 
