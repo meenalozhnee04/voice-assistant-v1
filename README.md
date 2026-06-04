@@ -21,13 +21,21 @@ FastAPI + React + Whisper + Ollama + Piper TTS
 
 # 🧠 System Architecture
 
+```text
 User Voice Input
-→ Browser MediaRecorder
-→ FastAPI Backend
-→ Faster Whisper (Speech → Text)
-→ Ollama LLM (AI Response)
-→ Piper TTS (Text → Speech)
-→ Audio Response
+    ↓
+Browser MediaRecorder
+    ↓
+FastAPI Backend
+    ↓
+Faster Whisper (Speech → Text)
+    ↓
+Ollama LLM (AI Response)
+    ↓
+Piper TTS (Text → Speech)
+    ↓
+Audio Response
+```
 
 ---
 
