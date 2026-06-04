@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Node
+node_modules/
+
+# Environment
+.env
+
+# Audio files (VERY IMPORTANT for your project)
+backend/audio/*.wav
+backend/temp_*
+
+# OS
+.DS_Store
